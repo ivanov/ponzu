@@ -14,8 +14,8 @@ var versionCmd = &cobra.Command{
 	Use:     "version",
 	Aliases: []string{"v"},
 	Short:   "Prints the version of Ponzu your project is using.",
-	Long: `Prints the version of Ponzu your project is using. Must be called from
-within a Ponzu project directory.`,
+	// 	Long: `Prints the version of Ponzu your project is using. Must be called from
+	// within a Ponzu project directory.`,
 	Example: `$ ponzu version
 > Ponzu v0.7.1
 (or)
